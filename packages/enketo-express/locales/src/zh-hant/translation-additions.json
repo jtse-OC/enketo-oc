@@ -1,0 +1,204 @@
+{
+  "widget": {
+    "dn": {
+      "assignto": "指派給:",
+      "assignedto": "__id__ 已指派給 __assignee__。",
+      "closequerytext": "關閉此查詢",
+      "notifytext": "電子郵件?",
+      "addquerybutton": "新增查詢",
+      "addannotationbutton": "新增註解",
+      "addnewtext": "新增",
+      "emptyhistorytext": "無歷史記錄",
+      "printhistoryheading": "歷史記錄 - __labelText__ (__questionName__)",
+      "me": "我",
+      "status": "狀態: __status__",
+      "reopen": "重新開啟",
+      "reopenlabel": "請於此輸入以重新開啟",
+      "autoclosed": "因此項目已隱藏，系統已關閉查詢",
+      "valuechange": "值已從 __previous__ 變更為 __new__",
+      "autoconstraint": "自動查詢: __errorMsg__",
+      "autonoreason": "自動查詢: 值已變更但未提供變更原因",
+      "closedmodified": "查詢關閉後資料已變更",
+      "newfile": "已上傳新檔案",
+      "fileremoved": "檔案已移除",
+      "addnewquery": "新增查詢",
+      "addnewannotation": "新增註解",
+      "typeresponse": "回覆查詢",
+      "allhistory": "檢視所有歷史記錄",
+      "queries": "查詢",
+      "annotations": "註解",
+      "showvaluechanges": "顯示值變更",
+      "now": "剛剛",
+      "second": "__count__ 秒",
+      "second_plural": "__count__ 秒",
+      "minute": "__count__ 分鐘",
+      "minute_plural": "__count__ 分鐘",
+      "hour": "__count__ 小時",
+      "hour_plural": "__count__ 小時",
+      "day": "__count__ 天",
+      "day_plural": "__count__ 天",
+      "month": "__count__ 個月",
+      "month_plural": "__count__ 個月",
+      "year": "__count__ 年",
+      "year_plural": "__count__  年"
+    }
+  },
+  "fieldsubmission": {
+    "alert": {
+      "close": {
+        "heading1": "正在關閉",
+        "heading2": "警告",
+        "msg1": "正在提交未儲存的資料...",
+        "msg2": "並非所有資料都已提交。如果您離開此頁面，這些資料將會遺失。"
+      },
+      "locked": {
+        "heading": "已鎖定",
+        "msg": "此表單或紀錄已鎖定，無法儲存提交內容。"
+      },
+      "complete": {
+        "msg": "無法提交資料。"
+      },
+      "validationerror": {
+        "msg": "您必須先解決此表單上的所有錯誤，才能將其標記為完成。請更新數值或為每個標示為紅色的欄位新增查詢。"
+      },
+      "relevantvalidationerror": {
+        "msg": "某些欄位的回覆使此表單上的部分資料無效。必須先更正才能將此表單標記為完成。"
+      },
+      "reasonforchangevalidationerror": {
+        "msg": "每個變更的欄位都必須提供變更原因。請補齊任何遺漏的原因。"
+      },
+      "stricterror": {
+        "heading": "無效的值",
+        "msg": "請輸入適當的值以更新此欄位。"
+      },
+      "participanterror": {
+        "msg": [
+          "It looks like some fields need attention",
+          "Please review them before proceeding."
+        ]
+      },
+      "signatureservicenotavailable": {
+        "msg": "簽署服務目前無法使用。此問題已取消勾選。"
+      },
+      "signatureservicefailed": {
+        "msg": "未收到簽署。此問題已取消勾選。"
+      }
+    },
+    "confirm": {
+      "autoquery": {
+        "msg1": "部分欄位值有錯誤。必須先解決這些問題，表單才能關閉。",
+        "msg2": [
+          "Click Cancel to return to the form to manually update the value or add a query for each field marked in red.",
+          "Click Proceed to continue closing the form now.  A query will be automatically added for each field marked in red."
+        ],
+        "automatic": "繼續",
+        "manual": "取消"
+      },
+      "complete": {
+        "msg": "您要完成此紀錄並離開嗎?",
+        "heading": "確認完成"
+      },
+      "leaveanyway": {
+        "msg": "您要放棄變更並直接離開嗎?",
+        "button": "仍要離開"
+      }
+    },
+    "prompt": {
+      "reason": {
+        "msg": "若是如此，請輸入刪除此群組的原因。"
+      }
+    },
+    "feedback": {
+      "ongoing": "正在儲存...",
+      "success": "所有變更已儲存。",
+      "fail": "儲存變更失敗。",
+      "disabled": "儲存功能已停用。"
+    },
+    "readonly": {
+      "msg": "您目前處於唯讀模式。"
+    },
+    "noteonly": {
+      "msg": "您目前處於僅審閱模式。"
+    },
+    "reason": {
+      "heading": "看起來您已進行了一些更新。請告訴我們原因:",
+      "placeholder1": "請輸入您變更的原因",
+      "placeholder2": "請輸入變更此值的原因",
+      "applytoall": "套用至全部",
+      "questionmsg": "請在頁面底部輸入變更原因。"
+    }
+  },
+  "confirm": {
+    "deleteall": {
+      "heading": "警告",
+      "msg": [
+        "This will delete all of your queued data and all of your forms from the browser storage. The data will be lost forever and the forms will not be usable until you are back online. Use this only if your browser storage seems corrupt.",
+        "Before proceeding, please close all of your other Offline Form tabs. This page will reload. If you see an error, you may have to repeat this action.",
+        "Would you like to proceed?"
+      ],
+      "posButton": "全部刪除"
+    },
+    "print": {
+      "queries": "顯示歷史記錄",
+      "queryShow": "顯示",
+      "heading": "選項",
+      "msg": "若要準備優化的列印，請選擇以下選項"
+    },
+    "repeatremove": {
+      "msg": "此操作無法復原（將會記錄於稽核軌跡中）。您確定要繼續嗎?"
+    }
+  },
+  "constraint": {
+    "relevant": "某個答案已變更，導致另一個問題需要隱藏，但由於該問題含有資料，我們無法將其隱藏。請清除相關資料或修改相依的答案。"
+  },
+  "home": {
+    "msg": "__appTitle__ 正在執行中! 請從您的 __serverName__ 安裝存取 OpenClinica 表單。"
+  },
+  "alert": {
+    "appupdated": {
+      "heading": "請重新整理",
+      "msg": "請重新整理此網頁以離線使用此表單（參考: application）"
+    },
+    "formupdated": {
+      "heading": "請重新整理",
+      "msg": "請重新整理此網頁以離線使用此表單（參考: definition）"
+    },
+    "goto": {
+      "irrelevant": "您嘗試存取的項目目前已隱藏。",
+      "invisible": "您嘗試存取的項目在此表單上不可見。",
+      "notfound": "您嘗試存取的項目已從此表單中移除。",
+      "msg1": "請使用「僅檢視查詢」圖示，而非「於紀錄中檢視查詢」圖示以查看。",
+      "msg2": "請前往 __miniform__ 查看。",
+      "form": "此表單"
+    },
+    "loaderror": {
+      "editadvice": "",
+      "entryadvice": "",
+      "heading": "請稍候...",
+      "msg1": "如需進一步協助，請將此頁面的連結及以下訊息提供給您的支援團隊。",
+      "msg2": "",
+      "heading_plural": "請稍候...",
+      "msg1_plural": "如需進一步協助，請將此頁面的連結及以下訊息提供給您的支援團隊。",
+      "msg2_plural": ""
+    }
+  },
+  "submission": {
+    "http500": "您的提交發生問題。請重試，如問題持續發生，請聯絡 __supportEmail__。"
+  },
+  "formfooter": {
+    "exit": {
+      "btn": "稍後完成"
+    },
+    "done": {
+      "btn": "完成"
+    }
+  },
+  "repeat": {
+    "addanother": {
+      "btn": "新增另一項"
+    },
+    "remove": {
+      "btn": "移除"
+    }
+  }
+}
