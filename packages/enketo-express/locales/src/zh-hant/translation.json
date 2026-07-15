@@ -1,0 +1,409 @@
+{
+  "advanced": {
+    "flushdb": "清除儲存空間"
+  },
+  "alert": {
+    "addtohomescreen": {
+      "androidchrome": {
+        "msg": "若要將此表單新增至您的主畫面，請點選瀏覽器設定圖示 __image1__ 並選擇：「新增至主畫面」。"
+      },
+      "androidfirefox": {
+        "msg": "若要將此表單新增至您的主畫面，請長按網址列並選擇「新增至主畫面」。"
+      },
+      "heading": "新增至主畫面",
+      "iossafari": {
+        "msg": "若要將此表單新增至您的主畫面，請點選瀏覽器右上方的分享圖示 __image1__，並選擇：「+ 新增至主畫面」。"
+      }
+    },
+    "appupdated": {
+      "heading": "應用程式已更新！",
+      "msg": "已下載此應用程式的新版本。請重新整理此頁面以載入更新版本。"
+    },
+    "closing": {
+      "heading": "正在關閉…"
+    },
+    "default": {
+      "button": "關閉",
+      "heading": "警示"
+    },
+    "export": {
+      "error": {
+        "filecreatedmsg": "儘管如此，仍已建立不完整的匯出檔案。",
+        "heading": "匯出錯誤",
+        "msg": "建立未提交紀錄的紀錄匯出檔案時發生錯誤。錯誤：__errors__"
+      },
+      "success": {
+        "heading": "已建立匯出",
+        "msg": "已為屬於此表單的所有未提交紀錄建立匯出檔案。"
+      }
+    },
+    "formupdated": {
+      "heading": "表單已更新！",
+      "msg": "已下載此表單的新版本。請重新整理此頁面以載入更新版本。"
+    },
+    "gotonotfound": {
+      "msg": "在表單中找不到問題「__path__」。此問題的參照是否正確？"
+    },
+    "loaderror": {
+      "editadvice": "在此問題解決之前，我們不建議您編輯此紀錄。",
+      "entryadvice": "在此問題解決之前，我們不建議您使用此表單進行資料輸入。",
+      "heading": "載入錯誤",
+      "msg1": "載入此表單時發生錯誤。",
+      "msg2": "請聯絡 __emailLink__，並提供此頁面的連結與以下錯誤訊息：",
+      "heading_plural": "載入錯誤",
+      "msg1_plural": "載入此表單時發生錯誤。",
+      "msg2_plural": "請聯絡 __emailLink__，並提供此頁面的連結與以下錯誤訊息："
+    },
+    "logout": {
+      "heading": "已登出",
+      "msg": "您已登出。"
+    },
+    "offlinesupported": {
+      "heading": "此表單可離線使用！",
+      "msg": [
+        "This form can now be loaded and used without an Internet connection on this device. Bookmark it for easy offline access.",
+        "Records are automatically stored and queued in your browser until an Internet connection is available. When the app is online, records will be automatically submitted - one by one.",
+        "Only after a record has been successfully submitted, it will be removed from the queue. You can safely close down your browser and device with items in the queue. They will still be there next time you load the form."
+      ]
+    },
+    "offlineunsupported": {
+      "heading": "應用程式無法離線啟動",
+      "msg": "您的瀏覽器不支援離線應用程式啟動。您可以在沒有此功能的情況下使用此問卷，或查看解決此問題的選項。",
+      "negButton": "使用它",
+      "posButton": "顯示選項",
+      "refresh": "此表單已無法離線啟動。請重新整理頁面以嘗試修復此問題。"
+    },
+    "queuesubmissionsuccess": {
+      "msg": "__recordNames__ 已成功提交",
+      "msg_plural": "__recordNames__ 已成功提交"
+    },
+    "recordloadsuccess": {
+      "msg": "已載入 __recordName__"
+    },
+    "recordnotfound": {
+      "msg": "無法取得紀錄或紀錄不含任何資料。"
+    },
+    "recordsavesuccess": {
+      "draftmsg": "紀錄已儲存為草稿。",
+      "finalmsg": "紀錄已排入提交佇列。"
+    },
+    "savedraftinfo": {
+      "heading": "稍後完成紀錄",
+      "msg": [
+        "The draft record is stored only within the current browser. You can close this browser without losing the stored record.",
+        "Draft records can be accessed by reopening this page and clicking the button on the left of the screen that looks like this: __icon__",
+        "Warning: If you clear your browser cache, all draft and unsubmitted final records will be permanently deleted."
+      ]
+    },
+    "submission": {
+      "msg": "正在提交…",
+      "redirectmsg": "提交後您將被自動導向。"
+    },
+    "submissionerror": {
+      "authrequiredmsg": "需要驗證身分。請在另一個瀏覽器分頁中於 __here__ 進行驗證，然後再試一次。",
+      "fnfmsg": [
+        "The following media files could not be retrieved: __failedFiles__. The submission went ahead without these files and this succeeded.",
+        "Please contact __supportEmail__ to report a bug and if possible explain how the issue can be reproduced."
+      ],
+      "heading": "提交失敗"
+    },
+    "submissionsuccess": {
+      "heading": "提交成功",
+      "msg": "您的資料已提交！",
+      "redirectmsg": "系統即將為您導向。"
+    },
+    "thanks": {
+      "heading": "感謝您的參與！",
+      "msg": "您現在可以關閉此視窗。",
+      "msgTaken": "您已完成此問卷。"
+    },
+    "validationerror": {
+      "msg": "表單含有錯誤。請查看標示為紅色的欄位。"
+    },
+    "validationsuccess": {
+      "heading": "確定",
+      "msg": "表單有效！"
+    },
+    "valuehasspaces": {
+      "multiple": "多選題含有非法值「__value__」，其中包含空格。"
+    },
+    "xpatherror": {
+      "heading": "公式錯誤",
+      "msg": "發生公式評估錯誤。請聯絡 __emailLink__ 並提供以下錯誤："
+    }
+  },
+  "changelog": "變更紀錄",
+  "confirm": {
+    "autosaveload": {
+      "heading": "發現未儲存的紀錄",
+      "msg": "Enketo 發現一筆未儲存的紀錄。您要載入此紀錄還是捨棄它？",
+      "negButton": "捨棄",
+      "posButton": "載入紀錄"
+    },
+    "default": {
+      "heading": "您確定嗎？",
+      "msg": "請確認此操作",
+      "negButton": "取消",
+      "posButton": "確認"
+    },
+    "deleteall": {
+      "heading": "緊急！",
+      "msg": [
+        "This will remove all your queued data and all your forms from the browser storage. Data will be lost forever. Use this only as a last resort if the browser storage seems corrupt.",
+        "Close all other Enketo browser tabs first.",
+        "The page will reload. If you see an error you may have to repeat this action.",
+        "Are you sure you want to do this?"
+      ],
+      "posButton": "全部刪除"
+    },
+    "discardcurrent": {
+      "heading": "未儲存的編輯",
+      "msg": "目前的表單有未儲存的變更。您要在不儲存目前表單變更的情況下載入紀錄嗎？",
+      "posButton": "不儲存並繼續"
+    },
+    "login": {
+      "heading": "需要登入",
+      "queuedMsg": [
+        "Record queued for submission. In order to submit your queued data, you need to login.",
+        "Would you like to login now or later?"
+      ],
+      "msg": [
+        "In order to submit your queued data, you need to login. If you want to do this now, you will be redirected, and lose unsaved information.",
+        "Would you like to login now or later?"
+      ],
+      "negButton": "稍後再說",
+      "posButton": "立即登入"
+    },
+    "print": {
+      "a4": "A4",
+      "heading": "選擇列印設定",
+      "landscape": "橫向",
+      "letter": "Letter",
+      "msg": "若要準備最佳化列印，請選擇以下列印設定",
+      "orientation": "紙張方向",
+      "portrait": "直向",
+      "posButton": "準備",
+      "psize": "紙張大小",
+      "reminder": "之後請記得在瀏覽器的列印選單中設定相同的列印設定！"
+    },
+    "repeatremove": {
+      "heading": "刪除此組回應？",
+      "msg": "此操作無法復原。您確定要繼續嗎？"
+    },
+    "save": {
+      "existingerror": "此紀錄名稱或 ID 已存在，請變更。",
+      "hint": "此名稱可讓您輕鬆找到草稿紀錄，以便日後完成。",
+      "msg": "有未儲存的變更，您要在不儲存這些變更的情況下繼續嗎？",
+      "name": "紀錄名稱",
+      "posButton": "儲存並關閉",
+      "renamemsg": "您確定要將 __currentName__ 重新命名為 __newName__ 嗎？",
+      "unkownerror": "嘗試儲存資料時發生未知錯誤。"
+    }
+  },
+  "constraint": {
+    "invalid": "不允許此值",
+    "required": "此欄位為必填"
+  },
+  "contact": {
+    "admin": "請聯絡問卷管理員。",
+    "support": "請聯絡 __supportEmail__。"
+  },
+  "drawwidget": {
+    "annotation": "檔案與繪圖",
+    "drawing": "繪圖",
+    "signature": "簽名"
+  },
+  "enketo": {
+    "power": "技術支援"
+  },
+  "error": {
+    "code": "錯誤代碼：__code__",
+    "dataloadfailed": "載入 __filename__ 失敗。",
+    "econnrefused": "無法連線至表單伺服器",
+    "encryptionnotsupported": "此表單需要對紀錄進行本機加密，但您的瀏覽器不支援此功能。我們建議您改用較新的瀏覽器。",
+    "formloadfailed": "載入表單失敗",
+    "instancenotfound": "紀錄不存在，可能已過期。",
+    "invalidediturl": "不是有效的編輯網址",
+    "loadfailed": "載入 __resource__ 失敗",
+    "notfoundinformlist": "此表單不存在，或您已不再擁有存取權限。請檢查網址是否有遺漏字元。\n\n若此表單先前存在，可能已被封存、停用或刪除。若情況非您預期，請聯絡要求您填寫此表單的人員。\n\n（嘗試存取的表單 ID：__formId__）",
+    "notfounddirectformurl": "此表單不存在，或您已不再擁有存取權限。請檢查網址是否有遺漏字元。\n\n若此表單先前存在，可能已被封存、停用或刪除。若情況非您預期，請聯絡要求您填寫此表單的人員。\n\n（嘗試存取的表單：__notfounddirectformurl__）",
+    "pagenotfound": "找不到頁面",
+    "surveyidnotactive": "此 ID 的問卷已不再啟用",
+    "surveyidnotfound": "找不到此 ID 的問卷",
+    "unknown": "發生未知錯誤"
+  },
+  "feedback": {
+    "header": "資訊"
+  },
+  "filepicker": {
+    "file": "檔案",
+    "notFound": "找不到檔案 __existing__（若已提交且您想保留它，請保持不變）。",
+    "placeholder": "點此上傳檔案。（< __maxSize__）",
+    "resetWarning": "這將移除 __item__。您確定要這麼做嗎？",
+    "toolargeerror": "檔案過大（> __maxSize__）",
+    "waitingForPermissions": "正在等待使用者權限。"
+  },
+  "form": {
+    "chooseLanguage": "選擇語言",
+    "logout": "登出",
+    "pages": {
+      "back": "返回",
+      "end": "前往結尾",
+      "next": "下一步",
+      "return": "返回開頭"
+    },
+    "required": "必填"
+  },
+  "formfooter": {
+    "complete": {
+      "btn": "完成"
+    },
+    "savedraft": {
+      "btn": "儲存草稿",
+      "label": "另存為草稿"
+    },
+    "submit": {
+      "btn": "提交"
+    },
+    "validate": {
+      "btn": "驗證"
+    }
+  },
+  "geopicker": {
+    "accuracy": "精確度（公尺）",
+    "altitude": "海拔（公尺）",
+    "closepolygon": "封閉多邊形",
+    "kmlcoords": "KML 座標",
+    "kmlpaste": "請在此貼上 KML 座標",
+    "latitude": "緯度（x.y °）",
+    "longitude": "經度（x.y °）",
+    "points": "點",
+    "removePoint": "這將從地理點清單中完全移除目前的地理點，且無法復原。您確定要這麼做嗎？",
+    "searchPlaceholder": "搜尋地點或地址",
+    "bordersintersectwarning": "邊界不可交叉"
+  },
+  "here": "此處",
+  "hint": {
+    "guidance": {
+      "details": "更多詳情"
+    }
+  },
+  "home": {
+    "msg": "__appTitle__ 正在執行中！請從您的 __serverName__ 安裝存取 Enketo 表單。"
+  },
+  "imagemap": {
+    "svgNotFound": "找不到 SVG 圖片"
+  },
+  "langs": {
+    "ar": "阿拉伯文",
+    "cs": "捷克語",
+    "de": "德語",
+    "el": "希臘語",
+    "en": "英語",
+    "es": "西班牙語",
+    "fa": "波斯語",
+    "fi": "芬蘭語",
+    "fr": "法語",
+    "he": "希伯來語",
+    "hi": "印地語",
+    "it": "義大利語",
+    "ka": "喬治亞語",
+    "km": "高棉語",
+    "lo": "寮語",
+    "nl": "荷蘭語",
+    "no": "挪威語",
+    "pa": "旁遮普語",
+    "pl": "波蘭語",
+    "pt": "葡萄牙語",
+    "ro": "羅馬尼亞語",
+    "ru": "俄語",
+    "sk": "斯洛伐克語",
+    "sq": "阿爾巴尼亞語",
+    "supported": "支援的語言：",
+    "sv": "瑞典語",
+    "sw": "史瓦希里語",
+    "th": "泰語",
+    "tr": "土耳其語",
+    "uk": "烏克蘭語",
+    "vi": "越南語",
+    "zh": "中文"
+  },
+  "literacywidget": {
+    "finish": "結束",
+    "start": "開始"
+  },
+  "page": {
+    "modernbrowsers": {
+      "heading": "現代瀏覽器",
+      "ie": {
+        "heading": "為什麼不支援那些過時的 Internet Explorer 版本？",
+        "msg": "我們理解有些人，尤其是在大型官僚機構工作的人，無法使用最新最好的瀏覽器。由於我們知道使用正確的工具，網路可以變得多麼美好，因此我們對處於這種不幸情況的使用者深表同情。通常，我們會嘗試提供變通方法來支援一些常見的過時瀏覽器。然而，Enketo 之所以存在，正是因為某些非常先進的尖端技術的可用性。因此，很遺憾，舊版瀏覽器的使用者將無法使用。"
+      },
+      "msg1": "糟糕！很抱歉，您之所以被導向這裡，可能是因為您的瀏覽器版本過舊，或是因為使用了「隱私瀏覽」模式而停用了關鍵功能。",
+      "msg2": "如果您使用的是過時的瀏覽器，我們建議您升級到以下優秀現代瀏覽器的最新版本："
+    },
+    "offline": {
+      "heading": "無法存取所請求的頁面",
+      "msg1": "只有在瀏覽器具有網際網路連線且伺服器可存取時，才能存取此頁面（除非該頁面不存在）。"
+    }
+  },
+  "prompt": {
+    "default": {
+      "heading": "輸入數值"
+    },
+    "login": {
+      "heading": "輸入您的 __server__ 憑證",
+      "password": "密碼",
+      "remember": "在此電腦上記住",
+      "submit": "提交",
+      "username": "使用者名稱"
+    }
+  },
+  "rankwidget": {
+    "clickstart": "點擊以開始",
+    "tapstart": "輕觸以開始"
+  },
+  "record-list": {
+    "export": "匯出",
+    "msg1": "記錄會儲存在您的瀏覽器內，直到成功上傳為止（即使您關閉電腦或離線也是如此）。",
+    "msg2": "排隊中的記錄（標記為草稿 __icon__ 的除外）會在網頁開啟且有網際網路連線時，每 5 分鐘自動在背景上傳一次。",
+    "msg2-nodraft": "排隊中的記錄會在網頁開啟且有網際網路連線時，每 5 分鐘自動在背景上傳一次。",
+    "msg3": "若要在自動上傳的間隔中強制上傳，請點擊「上傳」。",
+    "norecords": "沒有排隊中的記錄",
+    "title": "佇列",
+    "upload": "上傳"
+  },
+  "selectpicker": {
+    "noneselected": "未選擇任何項目",
+    "numberselected": "已選擇 __number__ 項"
+  },
+  "store": {
+    "error": {
+      "iosusesafari": "您的 iOS 瀏覽器無法執行此表單。在 iOS 上，我們建議使用 Safari。",
+      "notavailable": "需要瀏覽器儲存空間，但無法使用、已損毀或無法寫入。如果您處於「隱私瀏覽」模式，請切換到一般模式，否則請改用其他瀏覽器。（錯誤：__error__）",
+      "notsupported": "您的瀏覽器無法執行此表單。我們建議使用現代瀏覽器。"
+    }
+  },
+  "submission": {
+    "http0": "伺服器無法使用，或您可能未連接至網際網路。",
+    "http2xx": "提交資料時收到非預期的回應。",
+    "http400": "資料伺服器未接受資料。",
+    "http401": "資料伺服器發生驗證問題。",
+    "http403": "不允許將資料提交至此資料伺服器。",
+    "http404": "找不到資料伺服器上的提交服務。",
+    "http408": "資料伺服器逾時。",
+    "http413": "資料過大。",
+    "http4xx": "資料伺服器發生未知的提交問題。",
+    "http500": "您表單所用的資料伺服器或 Enketo 伺服器目前無法使用。請稍後再試，或聯絡 __supportEmail__。",
+    "http504": "無法與資料伺服器建立連線。"
+  },
+  "themes": {
+    "supported": "支援的主題"
+  },
+  "version": "版本：",
+  "widget": {
+    "comment": {
+      "update": "更新"
+    }
+  }
+}
