@@ -1,0 +1,409 @@
+{
+  "advanced": {
+    "flushdb": "Svuota memoria"
+  },
+  "alert": {
+    "addtohomescreen": {
+      "androidchrome": {
+        "msg": "Per aggiungere questo modulo alla schermata Home, tocca l'icona delle impostazioni del browser __image1__ e seleziona: 'Aggiungi a schermata Home'."
+      },
+      "androidfirefox": {
+        "msg": "Per aggiungere questo modulo alla schermata Home, tieni premuta la barra degli indirizzi e seleziona 'Aggiungi a schermata Home'."
+      },
+      "heading": "Aggiungi a schermata Home",
+      "iossafari": {
+        "msg": "Per aggiungere questo modulo alla schermata Home, tocca l'icona di condivisione __image1__ in alto a destra nel browser e seleziona: '+ Aggiungi a schermata Home'."
+      }
+    },
+    "appupdated": {
+      "heading": "App aggiornata!",
+      "msg": "È stata scaricata una nuova versione di questa applicazione. Aggiornare questa pagina per caricare la versione aggiornata."
+    },
+    "closing": {
+      "heading": "Chiusura in corso..."
+    },
+    "default": {
+      "button": "Chiudi",
+      "heading": "Avviso"
+    },
+    "export": {
+      "error": {
+        "filecreatedmsg": "Tuttavia, è stato comunque creato un file di esportazione incompleto.",
+        "heading": "Errore di esportazione",
+        "msg": "Si sono verificati errori durante la creazione del file di esportazione dei record per i record non inviati. Errori: __errors__"
+      },
+      "success": {
+        "heading": "Esportazione creata",
+        "msg": "File di esportazione creato per tutti i record non inviati appartenenti a questo modulo."
+      }
+    },
+    "formupdated": {
+      "heading": "Modulo aggiornato!",
+      "msg": "È stata scaricata una nuova versione di questo modulo. Aggiornare questa pagina per caricare la versione aggiornata."
+    },
+    "gotonotfound": {
+      "msg": "Impossibile trovare la domanda \"__path__\" nel modulo. Il riferimento a questa domanda è corretto?"
+    },
+    "loaderror": {
+      "editadvice": "Ti consigliamo di non modificare questo record finché questo problema non sarà risolto.",
+      "entryadvice": "Ti consigliamo di non utilizzare questo modulo per l'inserimento dei dati finché questo problema non sarà risolto.",
+      "heading": "Errore di caricamento",
+      "msg1": "Si è verificato un errore durante il caricamento di questo modulo.",
+      "msg2": "Contatta __emailLink__ con il link a questa pagina e il messaggio di errore riportato di seguito:",
+      "heading_plural": "Errori di caricamento",
+      "msg1_plural": "Si sono verificati errori durante il caricamento di questo modulo.",
+      "msg2_plural": "Contatta __emailLink__ con il link a questa pagina e i messaggi di errore riportati di seguito:"
+    },
+    "logout": {
+      "heading": "Disconnesso",
+      "msg": "Sei stato disconnesso."
+    },
+    "offlinesupported": {
+      "heading": "Il modulo funziona offline!",
+      "msg": [
+        "Questo modulo può ora essere caricato e utilizzato senza connessione a Internet su questo dispositivo. Aggiungilo ai preferiti per un facile accesso offline.",
+        "I record vengono automaticamente memorizzati e messi in coda nel browser finché non è disponibile una connessione a Internet. Quando l'app è online, i record verranno inviati automaticamente, uno per uno.",
+        "Solo dopo che un record è stato inviato correttamente, verrà rimosso dalla coda. È possibile chiudere in sicurezza il browser e il dispositivo con elementi in coda. Saranno ancora presenti al successivo caricamento del modulo."
+      ]
+    },
+    "offlineunsupported": {
+      "heading": "Impossibile avviare l'applicazione offline",
+      "msg": "L'avvio di applicazioni offline non è supportato dal tuo browser. Puoi comunque utilizzare il sondaggio senza questa funzione oppure visualizzare le opzioni per risolvere questo problema.",
+      "negButton": "Usa",
+      "posButton": "Mostra opzioni",
+      "refresh": "Questo modulo non può più essere avviato offline. Aggiornare la pagina per provare a risolvere questo problema."
+    },
+    "queuesubmissionsuccess": {
+      "msg": "__recordNames__ è stato inviato correttamente",
+      "msg_plural": "__recordNames__ sono stati inviati correttamente"
+    },
+    "recordloadsuccess": {
+      "msg": "__recordName__ è stato caricato"
+    },
+    "recordnotfound": {
+      "msg": "Impossibile recuperare il record oppure il record non conteneva dati."
+    },
+    "recordsavesuccess": {
+      "draftmsg": "Record salvato come bozza.",
+      "finalmsg": "Record accodato per l'invio."
+    },
+    "savedraftinfo": {
+      "heading": "Completa il record più tardi",
+      "msg": [
+        "Il record in bozza viene memorizzato solo all'interno del browser corrente. È possibile chiudere questo browser senza perdere il record memorizzato.",
+        "È possibile accedere ai record in bozza riaprendo questa pagina e facendo clic sul pulsante a sinistra dello schermo che ha questo aspetto: __icon__",
+        "Avviso: se si cancella la cache del browser, tutti i record in bozza e i record finali non inviati verranno eliminati definitivamente."
+      ]
+    },
+    "submission": {
+      "msg": "Invio in corso...",
+      "redirectmsg": "Dopo l'invio verrai reindirizzato automaticamente."
+    },
+    "submissionerror": {
+      "authrequiredmsg": "Autenticazione obbligatoria. Autenticarsi __here__ in una scheda del browser diversa e riprovare.",
+      "fnfmsg": [
+        "Non è stato possibile recuperare i seguenti file multimediali: __failedFiles__. L'invio è comunque proseguito senza questi file ed è andato a buon fine.",
+        "Contatta __supportEmail__ per segnalare un bug e, se possibile, spiega come riprodurre il problema."
+      ],
+      "heading": "Invio non riuscito"
+    },
+    "submissionsuccess": {
+      "heading": "Invio riuscito",
+      "msg": "I tuoi dati sono stati inviati.",
+      "redirectmsg": "Verrai ora reindirizzato."
+    },
+    "thanks": {
+      "heading": "Grazie per la tua partecipazione!",
+      "msg": "È ora possibile chiudere questa finestra.",
+      "msgTaken": "Hai già completato questo sondaggio."
+    },
+    "validationerror": {
+      "msg": "Il modulo contiene errori. Controlla i campi contrassegnati in rosso."
+    },
+    "validationsuccess": {
+      "heading": "OK",
+      "msg": "Il modulo è valido!"
+    },
+    "valuehasspaces": {
+      "multiple": "La domanda a scelta multipla contiene un valore non valido \"__value__\" che include uno spazio."
+    },
+    "xpatherror": {
+      "heading": "Errore nella formula",
+      "msg": "Si è verificato un errore durante la valutazione della formula. Contatta __emailLink__ segnalando questo errore:"
+    }
+  },
+  "changelog": "Registro delle modifiche",
+  "confirm": {
+    "autosaveload": {
+      "heading": "Trovato un record non salvato",
+      "msg": "Enketo ha trovato un record non salvato. Caricare questo record o scartarlo?",
+      "negButton": "Scarta",
+      "posButton": "Carica record"
+    },
+    "default": {
+      "heading": "Sei sicuro?",
+      "msg": "Conferma questa azione",
+      "negButton": "Annulla",
+      "posButton": "Conferma"
+    },
+    "deleteall": {
+      "heading": "ATTENZIONE!",
+      "msg": [
+        "Questa operazione rimuoverà tutti i dati in coda e tutti i moduli dalla memoria del browser. I dati andranno persi per sempre. Utilizzare questa opzione solo come ultima risorsa se la memoria del browser sembra danneggiata.",
+        "Chiudere prima tutte le altre schede del browser Enketo.",
+        "La pagina verrà ricaricata. Se viene visualizzato un errore, potrebbe essere necessario ripetere questa operazione.",
+        "Si è sicuri di voler procedere?"
+      ],
+      "posButton": "Elimina tutto"
+    },
+    "discardcurrent": {
+      "heading": "Modifiche non salvate",
+      "msg": "Il modulo attuale contiene modifiche non salvate. Vuoi caricare un record senza salvare le modifiche al modulo su cui stavi lavorando?",
+      "posButton": "Continua senza salvare"
+    },
+    "login": {
+      "heading": "Accesso richiesto",
+      "queuedMsg": [
+        "Record in coda per l'invio. Per inviare i dati in coda, è necessario accedere.",
+        "Accedere ora o più tardi?"
+      ],
+      "msg": [
+        "Per inviare i dati in coda, è necessario accedere. Se si desidera farlo ora, si verrà reindirizzati e si perderanno le informazioni non salvate.",
+        "Accedere ora o più tardi?"
+      ],
+      "negButton": "Più tardi",
+      "posButton": "Accedi ora"
+    },
+    "print": {
+      "a4": "A4",
+      "heading": "Seleziona le impostazioni di stampa",
+      "landscape": "Orizzontale",
+      "letter": "Letter",
+      "msg": "Per preparare una stampa ottimizzata, selezionare le impostazioni di stampa riportate di seguito",
+      "orientation": "Orientamento della pagina",
+      "portrait": "Verticale",
+      "posButton": "Prepara",
+      "psize": "Formato carta",
+      "reminder": "Ricorda di impostare le stesse impostazioni di stampa anche nel menu di stampa del browser!"
+    },
+    "repeatremove": {
+      "heading": "Eliminare questo gruppo di risposte?",
+      "msg": "Questa azione è irreversibile. Si è sicuri di voler procedere?"
+    },
+    "save": {
+      "existingerror": "Questo nome del record o ID esiste già. Modificarlo.",
+      "hint": "Questo nome consente di trovare facilmente il record in bozza per terminarlo più tardi.",
+      "msg": "Sono presenti modifiche non salvate. Vuoi continuare senza salvarle?",
+      "name": "Nome del record",
+      "posButton": "Salva e chiudi",
+      "renamemsg": "Sei sicuro di voler rinominare __currentName__ in __newName__?",
+      "unkownerror": "Si è verificato un errore sconosciuto durante il salvataggio dei dati."
+    }
+  },
+  "constraint": {
+    "invalid": "Valore non consentito",
+    "required": "Questo campo è obbligatorio."
+  },
+  "contact": {
+    "admin": "Contatta l'amministratore del sondaggio.",
+    "support": "Contatta __supportEmail__."
+  },
+  "drawwidget": {
+    "annotation": "file e disegno",
+    "drawing": "disegno",
+    "signature": "firma"
+  },
+  "enketo": {
+    "power": "Powered by"
+  },
+  "error": {
+    "code": "Codice errore: __code__",
+    "dataloadfailed": "Caricamento di __filename__ non riuscito.",
+    "econnrefused": "Impossibile connettersi al server dei moduli",
+    "encryptionnotsupported": "Questo modulo richiede la crittografia locale dei record. Purtroppo ciò non è supportato dal tuo browser. Ti consigliamo di passare a un browser moderno.",
+    "formloadfailed": "Caricamento del modulo non riuscito",
+    "instancenotfound": "Il record non è presente. Potrebbe essere scaduto.",
+    "invalidediturl": "URL di modifica non valido",
+    "loadfailed": "Caricamento di __resource__ non riuscito.",
+    "notfoundinformlist": "Questo modulo non esiste oppure non hai più accesso ad esso. Controlla che l'URL non contenga caratteri mancanti.\n\nSe il modulo esisteva in precedenza, potrebbe essere stato archiviato, disattivato o eliminato. Se questa situazione è inaspettata, contatta la persona che ti ha chiesto di compilare il modulo.\n\n(Tentativo di accesso al modulo con ID: __formId__)",
+    "notfounddirectformurl": "Questo modulo non esiste oppure non si dispone più dell'accesso ad esso. Verificare che l'URL non contenga caratteri mancanti.\n\nSe il modulo esisteva in precedenza, potrebbe essere stato archiviato, disattivato o eliminato. Se questo è inaspettato, contattare la persona che ha chiesto di compilare il modulo.\n\n(Tentativo di accesso al modulo: __notfounddirectformurl__)",
+    "pagenotfound": "Pagina non trovata",
+    "surveyidnotactive": "Il sondaggio con questo ID non è più attivo",
+    "surveyidnotfound": "Sondaggio con questo ID non trovato",
+    "unknown": "Si è verificato un errore sconosciuto"
+  },
+  "feedback": {
+    "header": "Informazioni"
+  },
+  "filepicker": {
+    "file": "file",
+    "notFound": "Il file __existing__ non è stato trovato (lasciare invariato se è già stato inviato e si desidera mantenerlo).",
+    "placeholder": "Fare clic qui per caricare il file. (< __maxSize__)",
+    "resetWarning": "Questa operazione rimuoverà __item__. Si è sicuri di voler procedere?",
+    "toolargeerror": "File troppo grande (> __maxSize__)",
+    "waitingForPermissions": "In attesa delle autorizzazioni dell'utente."
+  },
+  "form": {
+    "chooseLanguage": "Scegli lingua",
+    "logout": "esci",
+    "pages": {
+      "back": "Indietro",
+      "end": "Vai alla fine",
+      "next": "Avanti",
+      "return": "Torna all'inizio"
+    },
+    "required": "obbligatorio"
+  },
+  "formfooter": {
+    "complete": {
+      "btn": "Completa"
+    },
+    "savedraft": {
+      "btn": "Salva bozza",
+      "label": "Salva come bozza"
+    },
+    "submit": {
+      "btn": "Invia"
+    },
+    "validate": {
+      "btn": "Convalida"
+    }
+  },
+  "geopicker": {
+    "accuracy": "precisione (m)",
+    "altitude": "altitudine (m)",
+    "closepolygon": "chiudi poligono",
+    "kmlcoords": "coordinate KML",
+    "kmlpaste": "incolla qui le coordinate KML",
+    "latitude": "latitudine (x.y °)",
+    "longitude": "longitudine (x.y °)",
+    "points": "punti",
+    "removePoint": "Questa operazione rimuoverà definitivamente il geopunto corrente dall'elenco dei geopunti e non potrà essere annullata. Sei sicuro di voler procedere?",
+    "searchPlaceholder": "cerca un luogo o un indirizzo",
+    "bordersintersectwarning": "I confini non possono intersecarsi"
+  },
+  "here": "qui",
+  "hint": {
+    "guidance": {
+      "details": "ulteriori dettagli"
+    }
+  },
+  "home": {
+    "msg": "__appTitle__ è in esecuzione. Accedere ai moduli Enketo dalla propria installazione di __serverName__."
+  },
+  "imagemap": {
+    "svgNotFound": "Immagine SVG non trovata"
+  },
+  "langs": {
+    "ar": "Arabo",
+    "cs": "Ceco",
+    "de": "Tedesco",
+    "el": "Greco",
+    "en": "Inglese",
+    "es": "Spagnolo",
+    "fa": "Persiano",
+    "fi": "Finlandese",
+    "fr": "Francese",
+    "he": "Ebraico",
+    "hi": "Hindi",
+    "it": "Italiano",
+    "ka": "Georgiano",
+    "km": "Khmer",
+    "lo": "Laotiano",
+    "nl": "Olandese",
+    "no": "Norvegese",
+    "pa": "Punjabi",
+    "pl": "Polacco",
+    "pt": "Portoghese",
+    "ro": "Rumeno",
+    "ru": "Russo",
+    "sk": "Slovacco",
+    "sq": "Albanese",
+    "supported": "Lingue supportate: ",
+    "sv": "Svedese",
+    "sw": "Swahili",
+    "th": "Thailandese",
+    "tr": "Turco",
+    "uk": "Ucraino",
+    "vi": "Vietnamita",
+    "zh": "Cinese"
+  },
+  "literacywidget": {
+    "finish": "Termina",
+    "start": "Avvia"
+  },
+  "page": {
+    "modernbrowsers": {
+      "heading": "Browser moderni",
+      "ie": {
+        "heading": "Perché nessun amore per quelle malvagie versioni obsolete di Internet Explorer?",
+        "msg": "Comprendiamo che alcune persone, in particolare coloro che lavorano in grandi enti burocratici, non hanno accesso ai browser più recenti e migliori. Poiché sappiamo quanto potrebbe essere straordinario il Web con gli strumenti giusti, proviamo grande empatia per gli utenti in questa sfortunata situazione. Normalmente cercheremmo di fornire soluzioni alternative per supportare alcuni browser obsoleti ma diffusi. Tuttavia, la ragione stessa dell'esistenza di Enketo è la disponibilità di alcune tecnologie all'avanguardia molto sofisticate. Sfortunatamente, gli utenti di browser meno recenti non hanno quindi possibilità."
+      },
+      "msg1": "Siamo spiacenti! Probabilmente sei stato indirizzato qui perché il tuo browser è obsoleto oppure perché le sue funzionalità principali sono disattivate a causa della modalità di navigazione privata.",
+      "msg2": "Se stai utilizzando un browser obsoleto, ti consigliamo di aggiornare a una versione recente di uno dei seguenti eccellenti browser moderni:"
+    },
+    "offline": {
+      "heading": "Impossibile accedere alla pagina richiesta",
+      "msg1": "Questa pagina è accessibile solo quando il browser dispone di una connessione a Internet e il server è raggiungibile (a meno che la pagina non esista)."
+    }
+  },
+  "prompt": {
+    "default": {
+      "heading": "Immettere i valori"
+    },
+    "login": {
+      "heading": "Immettere le credenziali di accesso per __server__",
+      "password": "Password",
+      "remember": "Salva su questo computer",
+      "submit": "Invia",
+      "username": "Nome utente"
+    }
+  },
+  "rankwidget": {
+    "clickstart": "Fare clic per iniziare",
+    "tapstart": "Toccare per iniziare"
+  },
+  "record-list": {
+    "export": "Esporta",
+    "msg1": "I record vengono salvati nel browser finché non vengono caricati (anche se si spegne il computer o si va offline).",
+    "msg2": "I record in coda, ad eccezione di quelli contrassegnati come bozza __icon__, vengono caricati automaticamente in background ogni 5 minuti, quando la pagina web è aperta ed è disponibile una connessione a Internet.",
+    "msg2-nodraft": "I record in coda vengono caricati automaticamente in background ogni 5 minuti, quando la pagina web è aperta ed è disponibile una connessione a Internet.",
+    "msg3": "Per forzare il caricamento tra i tentativi automatici, fare clic su Carica.",
+    "norecords": "nessun record in coda",
+    "title": "Coda",
+    "upload": "Carica"
+  },
+  "selectpicker": {
+    "noneselected": "nessuno selezionato",
+    "numberselected": "__number__ selezionati"
+  },
+  "store": {
+    "error": {
+      "iosusesafari": "Il browser iOS non è in grado di eseguire questo modulo. Su iOS, si consiglia di utilizzare Safari.",
+      "notavailable": "La memoria del browser è obbligatoria, ma non è disponibile, è danneggiata o non è scrivibile. Se si è in modalità di navigazione privata, passare alla modalità normale, altrimenti passare a un altro browser. (errore: __error__)",
+      "notsupported": "Il browser non è in grado di eseguire questo modulo. Ti consigliamo di utilizzare un browser moderno."
+    }
+  },
+  "submission": {
+    "http0": "Il server non è disponibile oppure non si è connessi a Internet.",
+    "http2xx": "Risposta imprevista durante l'invio dei dati.",
+    "http400": "Il server dati non ha accettato i dati.",
+    "http401": "Problema di autenticazione con il server dati.",
+    "http403": "Non è consentito inviare dati a questo server dati.",
+    "http404": "Servizio di invio non trovato sul server dati.",
+    "http408": "Timeout del server dati.",
+    "http413": "I dati sono troppo grandi.",
+    "http4xx": "Problema di invio sconosciuto sul server dati.",
+    "http500": "Il server dati per il modulo o il server Enketo non è disponibile. Riprovare più tardi oppure contattare __supportEmail__.",
+    "http504": "Impossibile stabilire una connessione con il server dati."
+  },
+  "themes": {
+    "supported": "Temi supportati"
+  },
+  "version": "Versione:",
+  "widget": {
+    "comment": {
+      "update": "Aggiorna"
+    }
+  }
+}
