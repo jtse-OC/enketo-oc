@@ -1,0 +1,204 @@
+{
+  "widget": {
+    "dn": {
+      "assignto": "Assegna a:",
+      "assignedto": "__id__ assegnato a __assignee__.",
+      "closequerytext": "Chiudi questa query",
+      "notifytext": "E-mail?",
+      "addquerybutton": "Aggiungi query",
+      "addannotationbutton": "Aggiungi annotazione",
+      "addnewtext": "Nuovo",
+      "emptyhistorytext": "Nessuna cronologia",
+      "printhistoryheading": "Cronologia per – __labelText__ (__questionName__)",
+      "me": "Io",
+      "status": "Stato: __status__",
+      "reopen": "Riapri",
+      "reopenlabel": "Digita qui per riaprire",
+      "autoclosed": "Query chiusa dal sistema poiché questo elemento era nascosto",
+      "valuechange": "Valore modificato da __previous__ a __new__",
+      "autoconstraint": "Query automatica per: __errorMsg__",
+      "autonoreason": "Query automatica per: valore modificato e nessun motivo della modifica indicato",
+      "closedmodified": "Dati modificati dopo la chiusura della query",
+      "newfile": "Nuovo file caricato",
+      "fileremoved": "File rimosso",
+      "addnewquery": "Aggiungi una nuova query",
+      "addnewannotation": "Aggiungi una nuova annotazione",
+      "typeresponse": "Rispondi alla query",
+      "allhistory": "Mostra intera cronologia",
+      "queries": "Query",
+      "annotations": "Annotazioni",
+      "showvaluechanges": "Mostra modifiche dei valori",
+      "now": "Proprio ora",
+      "second": "__count__ secondo",
+      "second_plural": "__count__ secondi",
+      "minute": "__count__ minuto",
+      "minute_plural": "__count__ minuti",
+      "hour": "__count__ ora",
+      "hour_plural": "__count__ ore",
+      "day": "__count__ giorno",
+      "day_plural": "__count__ giorni",
+      "month": "__count__ mese",
+      "month_plural": "__count__ mesi",
+      "year": "__count__ anno",
+      "year_plural": "__count__ anni"
+    }
+  },
+  "fieldsubmission": {
+    "alert": {
+      "close": {
+        "heading1": "Chiusura in corso",
+        "heading2": "Avviso",
+        "msg1": "Invio dei dati non salvati in corso...",
+        "msg2": "Non tutti i dati sono stati inviati. Se si abbandona questa pagina, andranno persi."
+      },
+      "locked": {
+        "heading": "Bloccato",
+        "msg": "Questo modulo o record è bloccato e non è possibile salvare gli invii."
+      },
+      "complete": {
+        "msg": "Non è stato possibile inviare i dati."
+      },
+      "validationerror": {
+        "msg": "È necessario correggere tutti gli errori su questo modulo prima che possa essere contrassegnato come completo. Aggiornare il valore o aggiungere una query per ogni campo evidenziato in rosso."
+      },
+      "relevantvalidationerror": {
+        "msg": "Le risposte in alcuni campi rendono non validi alcuni dati di questo modulo. È necessario correggerli per contrassegnare il modulo come completo."
+      },
+      "reasonforchangevalidationerror": {
+        "msg": "Per ogni campo modificato è necessario indicare un motivo della modifica. Aggiungere i motivi mancanti."
+      },
+      "stricterror": {
+        "heading": "Valore non valido",
+        "msg": "Inserire un valore adeguato per aggiornare il campo."
+      },
+      "participanterror": {
+        "msg": [
+          "Sembra che alcuni campi richiedano attenzione",
+          "Si prega di rivederli prima di procedere."
+        ]
+      },
+      "signatureservicenotavailable": {
+        "msg": "Il servizio di firma non è al momento disponibile. Il contrassegno della domanda è stato rimosso."
+      },
+      "signatureservicefailed": {
+        "msg": "Firma non ricevuta. Il contrassegno della domanda è stato rimosso."
+      }
+    },
+    "confirm": {
+      "autoquery": {
+        "msg1": "Alcuni valori dei campi contengono errori. È necessario correggerli prima che il modulo venga chiuso.",
+        "msg2": [
+          "Fare clic su Annulla per tornare al modulo e aggiornare manualmente il valore o aggiungere una query per ogni campo evidenziato in rosso.",
+          "Fare clic su Procedi per continuare la chiusura del modulo. Verrà aggiunta automaticamente una query per ogni campo evidenziato in rosso."
+        ],
+        "automatic": "Procedi",
+        "manual": "Annulla"
+      },
+      "complete": {
+        "msg": "Si desidera completare questo record e uscire?",
+        "heading": "Conferma completamento"
+      },
+      "leaveanyway": {
+        "msg": "Si desidera scartare le modifiche e uscire comunque?",
+        "button": "Esci comunque"
+      }
+    },
+    "prompt": {
+      "reason": {
+        "msg": "In caso affermativo, indicare un motivo per l'eliminazione del gruppo."
+      }
+    },
+    "feedback": {
+      "ongoing": "Salvataggio in corso...",
+      "success": "Tutte le modifiche sono state salvate.",
+      "fail": "Salvataggio delle modifiche non riuscito.",
+      "disabled": "Il salvataggio è disattivato."
+    },
+    "readonly": {
+      "msg": "Si sta lavorando in modalità di sola lettura."
+    },
+    "noteonly": {
+      "msg": "Si sta lavorando in modalità \"Solo verifica\"."
+    },
+    "reason": {
+      "heading": "Sembra che siano state apportate delle modifiche. Indicare il motivo:",
+      "placeholder1": "Inserire il motivo delle modifiche",
+      "placeholder2": "Inserire il motivo della modifica di questo valore",
+      "applytoall": "Applica a tutti",
+      "questionmsg": "Inserire un motivo della modifica in fondo alla pagina."
+    }
+  },
+  "confirm": {
+    "deleteall": {
+      "heading": "AVVISO",
+      "msg": [
+        "Questa operazione eliminerà tutti i dati in coda e tutti i moduli dalla memoria del browser. I dati andranno persi definitivamente e i moduli non saranno utilizzabili finché non si torna online. Utilizzare questa opzione solo se la memoria del browser sembra corrotta.",
+        "Prima di procedere, chiudere tutte le altre schede dei Moduli Offline. Questa pagina verrà ricaricata. Se viene visualizzato un errore, potrebbe essere necessario ripetere questa operazione.",
+        "Si desidera procedere?"
+      ],
+      "posButton": "Elimina tutto"
+    },
+    "print": {
+      "queries": "Mostra cronologia",
+      "queryShow": "mostra",
+      "heading": "Opzioni",
+      "msg": "Per preparare una stampa ottimizzata, selezionare le opzioni seguenti"
+    },
+    "repeatremove": {
+      "msg": "Questa operazione è irreversibile (verrà registrata nel percorso di controllo). Si è sicuri di voler procedere?"
+    }
+  },
+  "constraint": {
+    "relevant": "Una risposta ha determinato il passaggio a un'altra domanda per la quale questa domanda deve essere nascosta, ma non può essere nascosta finché contiene dati. Eliminare i dati o modificare le risposte da cui dipende."
+  },
+  "home": {
+    "msg": "__appTitle__ è in esecuzione. Accedere ai moduli OpenClinica dalla propria installazione __serverName__."
+  },
+  "alert": {
+    "appupdated": {
+      "heading": "Aggiornare",
+      "msg": "Aggiornare questa pagina web per utilizzare il modulo offline (rif: applicazione)"
+    },
+    "formupdated": {
+      "heading": "Aggiornare",
+      "msg": "Aggiornare questa pagina web per utilizzare il modulo offline (rif: definizione)"
+    },
+    "goto": {
+      "irrelevant": "L'elemento a cui si desidera accedere è attualmente nascosto.",
+      "invisible": "L'elemento a cui si desidera accedere non è visibile nel modulo.",
+      "notfound": "L'elemento a cui si desidera accedere è stato rimosso da questo modulo.",
+      "msg1": "Utilizzare l'icona \"Mostra solo query\" anziché l'icona \"Mostra query nel record\" per visualizzarlo.",
+      "msg2": "Visitare __miniform__ per visualizzarlo.",
+      "form": "questo modulo"
+    },
+    "loaderror": {
+      "editadvice": "",
+      "entryadvice": "",
+      "heading": "Un momento, per favore...",
+      "msg1": "Se è necessaria ulteriore assistenza, contattare il team di supporto fornendo il link a questa pagina e il messaggio riportato di seguito.",
+      "msg2": "",
+      "heading_plural": "Un momento, per favore...",
+      "msg1_plural": "Se è necessaria ulteriore assistenza, contattare il team di supporto fornendo il link a questa pagina e i messaggi riportati di seguito.",
+      "msg2_plural": ""
+    }
+  },
+  "submission": {
+    "http500": "Si è verificato un problema con l'invio. Riprovare oppure contattare __supportEmail__ se il problema persiste."
+  },
+  "formfooter": {
+    "exit": {
+      "btn": "Termina più tardi"
+    },
+    "done": {
+      "btn": "Ho finito"
+    }
+  },
+  "repeat": {
+    "addanother": {
+      "btn": "Aggiungi un altro"
+    },
+    "remove": {
+      "btn": "Rimuovi"
+    }
+  }
+}
